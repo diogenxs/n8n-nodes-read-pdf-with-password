@@ -4,7 +4,7 @@ import { INodeExecutionData, INodeType, INodeTypeDescription } from 'n8n-workflo
 
 const pdf = require('pdf-parse');
 
-export class ReadPDF implements INodeType {
+export class ReadPDFWithPassword implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Read PDF With Password',
 		name: 'readPDFWithPassword',

@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-read-pdf-with-password",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "ReadPDF clone of n8n base node with password support",
   "keywords": [
     "n8n-community-node-package"
@@ -31,7 +31,7 @@
     "n8nNodesApiVersion": 1,
     "credentials": [],
     "nodes": [
-      "dist/nodes/ReadPdfWithPassword/ReadPDFWithPassword.node.js"
+      "dist/nodes/ReadPDFWithPassword/ReadPDFWithPassword.node.js"
     ]
   },
   "devDependencies": {
